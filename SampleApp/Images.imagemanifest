@@ -3,7 +3,7 @@
                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                xmlns="http://schemas.microsoft.com/VisualStudio/ImageManifestSchema/2014">
   <Symbols>
-    <String Name="Resources" Value="/YourAppNamespace;v1.0.0.0;b03f5f7f11d50a3a;Component/Resources" />
+    <String Name="Resources" Value="/SampleApp;v1.0.0.0;b03f5f7f11d50a3a;Component/Resources" />
     <Guid Name="SampleAppImagesGuid" Value="{D5B6C5B8-564B-400A-B81F-3C6BB85C0E22}" />
     <ID Name="SampleIcon" Value="1" />
   </Symbols>

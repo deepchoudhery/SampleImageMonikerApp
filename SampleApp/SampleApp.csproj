@@ -7,18 +7,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
-	
-  <ItemGroup>
-	<Reference Include="PresentationCore" />
-	<Reference Include="PresentationFramework" />
-	<Reference Include="WindowsBase" />
-	<Reference Include="Microsoft.VisualStudio.Imaging" />
-  </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime" Version="17.11.40252" />
+  </ItemGroup>
+	
   <ItemGroup>
 	<None Update="Images.imagemanifest">
 		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	</None>
-	<Resource Include="Resources/SampleIcon.png" />
+	<Resource Include="resources\sampleicon.png" />
   </ItemGroup>
 </Project>
